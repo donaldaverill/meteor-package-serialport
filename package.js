@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Npm.depends({
-    'serialport': '1.4.0'
+    'serialport': '1.3.1'
 });
 
 Package.on_use(function(api) {
