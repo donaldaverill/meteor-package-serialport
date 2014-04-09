@@ -8,7 +8,7 @@ To Use
 Opening a serial port:
 
 ```js   
-var serialPort = new SerialPort.SerialPort("/dev/tty.usbmodemfd121" //or whatever your device is connected to, {
+var serialPort = new SerialPort.SerialPort("/dev/tty.usbmodemfd121", { //or whatever your device is connected to
     baudrate: 9600,
     parser: SerialPort.parsers.readline('\r\n')
 });
