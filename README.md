@@ -1,4 +1,4 @@
-# Meteor serialport
+# meteor serialport
 
 serialport repackaged for Meteor
 
@@ -8,7 +8,7 @@ To Use
 Opening a serial port:
 
 ```js   
-var serialPort = new SerialPort.SerialPort("/dev/tty.usbmodemfd121", {
+var serialPort = new SerialPort.SerialPort("/dev/tty.usbmodemfd121" //or whatever your device is connected to, {
     baudrate: 9600,
     parser: SerialPort.parsers.readline('\r\n')
 });
@@ -30,3 +30,4 @@ serialPort.on('open', function() {
     });
 });
 ```
+For more: https://github.com/voodootikigod/node-serialport
