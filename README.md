@@ -2,19 +2,18 @@
 
 serialport repackaged for Meteor
 
-This package should work with other devices, but so far has been only tested on an Arduino Uno. 
+See this project as an example: https://github.com/HumulusMaximus/meteor-arduino-serialport
 
 To Use
 ------
 
 Open a serial port:
 ```js   
-
-var serialPort = new SerialPort.SerialPort("/dev/tty.usbmodemfd121", { //or whatever your device is connected to
+//or whatever your device is connected to
+var serialPort = new SerialPort.SerialPort("/dev/tty.usbmodemfd121", { 
     baudrate: 9600,
     parser: SerialPort.parsers.readline('\r\n')
 });
-
 ```
 
 Do stuff:
@@ -30,20 +29,15 @@ serialPort.on('open', function() {
 var sendToArduino = function(message) {
     serialPort.write(message);
 };
-
 ```
 
-For more from serialport: https://github.com/voodootikigod/node-serialport
+For more: https://github.com/voodootikigod/node-serialport
 
-An alternative for using serialport without this package is to use the [npm](https://atmospherejs.com/package/npm) package. Be sure to add npm to your project and include serialport by:
-
+An alternative for using [serialport](https://github.com/voodootikigod/node-serialport) without this package is to use the [npm](https://atmospherejs.com/package/npm) package. Be sure to add npm to your project and include serialport by:
 ```
-
 var SerialPort = Meteor.require('serialport');
-var serialPort = new SerialPort.SerialPort("/dev/tty.usbmodemfa131", {
+var serialPort = new SerialPort.SerialPort("/dev/tty.usbmodemfd121", {
     baudrate: 9600,
     parser: SerialPort.parsers.readline('\r\n')
 });
-
 ```
-See this project as an example: 
