@@ -18,12 +18,12 @@ serialPort.on('open', function() {
 ```
 Do stuff:
 ```js
-//receive data from the serial port
+//receive data
 serialPort.on('data', function(data) {
     console.log('message ' + data);
 });
 
-//send data to the serial port
+//send data
 var sendToArduino = function(message) {
     serialPort.write(message);
 };
