@@ -1,8 +1,8 @@
 # meteor serialport
 
-serialport repackaged for Meteor
+[serialport](https://www.npmjs.org/package/serialport) repackaged for Meteor
 
-See this project as an example: [meteor-arduino-serialport](https://github.com/HumulusMaximus/meteor-arduino-serialport)
+Example Meteor app: [meteor-arduino-serialport](https://github.com/HumulusMaximus/meteor-arduino-serialport)
 To Use
 ------
 On the server, open a serial port:
@@ -24,7 +24,7 @@ serialPort.on('data', function(data) {
 });
 
 //send data
-var sendToArduino = function(message) {
+var sendToSerialPort = function(message) {
     serialPort.write(message);
 };
 ```
