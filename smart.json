@@ -1,8 +1,8 @@
 {
     "name": "serialport",
     "description": "serialport repackaged for Meteor",
-    "homepage": "https://github.com/HumulusMaximus/meteor-serialport",
+    "homepage": "https://github.com/HumulusMaximus/meteor-package-serialport",
     "author": "Donald Averill <donaldaverill@nakedcitybrewing.com>",
     "version": "1.3.1",
-    "git": "https://github.com/HumulusMaximus/meteor-serialport.git"
+    "git": "https://github.com/HumulusMaximus/meteor-package-serialport.git"
 }
