@@ -2,7 +2,7 @@
 
 [serialport](https://www.npmjs.org/package/serialport) repackaged for Meteor
 
-Example Meteor app: [meteor-arduino-serialport](https://github.com/HumulusMaximus/meteor-arduino-serialport)
+Example Meteor app: [meteor-app-example-arduino-serialport](https://github.com/HumulusMaximus/meteor-app-example-arduino-serialport)
 To Use
 ------
 On the server, open a serial port:
