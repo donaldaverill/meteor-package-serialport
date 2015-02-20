@@ -1,12 +1,12 @@
 Package.describe({
   name: 'donaldaverill:serialport',
   summary: 'serialport npm module wrapped for Meteor.',
-  version: '1.4.6_1',
+  version: '1.5.0_1',
   git: 'https://github.com/donaldaverill/meteor-package-serialport'
 });
 
 Npm.depends({
-  'serialport': '1.4.6'
+  'serialport': '1.5.0'
 });
 
 Package.onUse(function(api) {
