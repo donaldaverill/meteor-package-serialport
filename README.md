@@ -1,4 +1,5 @@
 # meteor serialport
+[![Build Status](https://travis-ci.org/donaldaverill/meteor-package-serialport.svg?branch=master)](https://travis-ci.org/donaldaverill/meteor-package-serialport)
 
 [serialport](https://www.npmjs.org/package/serialport) npm module wrapped for Meteor.
 
