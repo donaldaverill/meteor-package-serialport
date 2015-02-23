@@ -7,7 +7,7 @@ Example Meteor app: [meteor-app-example-arduino-serialport](https://github.com/d
 To Use
 ------
 On the server, open a serial port:
-```js
+```javascript
 //or whatever your device is connected to
 var serialPort = new SerialPort.SerialPort("/dev/tty.usbmodemfd121", {
     baudrate: 9600,
@@ -18,7 +18,7 @@ serialPort.on('open', function() {
 });
 ```
 Do stuff:
-```js
+```javascript
 //receive data
 serialPort.on('data', function(data) {
     console.log('message ' + data);
@@ -32,7 +32,7 @@ var sendToSerialPort = function(message) {
 For more: https://github.com/voodootikigod/node-serialport
 
 An alternative for using [serialport](https://github.com/voodootikigod/node-serialport) without this package is to use the [npm](https://atmospherejs.com/meteorhacks/npm) package. Add npm to your project and include serialport:
-```js
+```javascript
 var SerialPort = Meteor.npmRequire('serialport');
 var serialPort = new SerialPort.SerialPort("/dev/tty.usbmodemfd121", {
     baudrate: 9600,
