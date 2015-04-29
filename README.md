@@ -4,6 +4,10 @@
 [serialport](https://www.npmjs.org/package/serialport) npm module wrapped for Meteor.
 
 Example Meteor app: [meteor-app-example-arduino-serialport](https://github.com/donaldaverill/meteor-app-example-arduino-serialport)
+
+Note: This package uses serialport version 1.3.1. Newer versions seem to have issues. See:
+https://github.com/juliancwirko/meteor-arduino-cylon/issues/1
+
 To Use
 ------
 On the server, open a serial port:
