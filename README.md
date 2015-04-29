@@ -5,8 +5,10 @@
 
 Example Meteor app: [meteor-app-example-arduino-serialport](https://github.com/donaldaverill/meteor-app-example-arduino-serialport)
 
-Note: This package uses serialport version 1.3.1. Newer versions seem to have issues. See:
+Notes:
+- This package uses serialport version 1.3.1. Newer versions seem to have issues. See:
 https://github.com/juliancwirko/meteor-arduino-cylon/issues/1
+- There's no Windows version at the moment.
 
 To Use
 ------
