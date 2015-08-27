@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'donaldaverill:serialport',
+  name: 'fourquet:serialport',
   summary: 'serialport npm module wrapped for Meteor.',
-  version: '1001.7.4_1',
-  git: 'https://github.com/donaldaverill/meteor-package-serialport'
+  version: '1.7.4_1',
+  git: 'https://github.com/fourquet/meteor-package-serialport'
 });
 
 Npm.depends({
@@ -17,6 +17,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest', ['client', 'server']);
-  api.use('donaldaverill:serialport', ['server']);
+  api.use('fourquet:serialport', ['server']);
   api.addFiles('serialport-tests.js', ['client', 'server']);
 });

@@ -1,9 +1,9 @@
 # meteor serialport
-[![Build Status](https://travis-ci.org/donaldaverill/meteor-package-serialport.svg?branch=master)](https://travis-ci.org/donaldaverill/meteor-package-serialport)
+[![Build Status](https://travis-ci.org/fourquet/meteor-package-serialport.svg?branch=master)](https://travis-ci.org/fourquet/meteor-package-serialport)
 
 [serialport](https://www.npmjs.org/package/serialport) npm module wrapped for Meteor.
 
-Example Meteor app: [meteor-app-example-arduino-serialport](https://github.com/donaldaverill/meteor-app-example-arduino-serialport)
+Example Meteor app: [meteor-app-example-arduino-serialport](https://github.com/fourquet/meteor-app-example-arduino-serialport)
 
 To Use
 ------
