@@ -1,16 +1,16 @@
 Package.describe({
   name: 'fourquet:serialport',
   summary: 'serialport npm module wrapped for Meteor.',
-  version: '1.7.4_1',
+  version: '0.0.1',
   git: 'https://github.com/fourquet/meteor-package-serialport'
 });
 
 Npm.depends({
-  'serialport': '1.7.4'
+  'serialport': '2.0.2'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0');
+  api.versionsFrom('1.2.1');
   api.export('SerialPort', ['server']);
   api.addFiles('serialport.js', ['server']);
 });
