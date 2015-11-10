@@ -3,7 +3,7 @@
 
 [serialport](https://www.npmjs.org/package/serialport) npm module wrapped for Meteor.
 
-Example Meteor app: [meteor-app-example-arduino-serialport](https://github.com/fourquet/meteor-app-example-arduino-serialport)
+Example Meteor app: [meteor-app-example-arduino-serialport](https://github.com/fourquet/meteor-package-serialport/tree/master/example)
 
 To Use
 ------

@@ -2,6 +2,10 @@
 
 * Whatever is the next serialport version.
 
+## v.2.0.4_2, 2015-Nov-10
+
+* fix links in REAMDE's
+
 ## v.2.0.4_1, 2015-Nov-10
 
 * Published serialport version 2.0.4
