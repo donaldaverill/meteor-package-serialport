@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'serialport': '2.0.4'
+  'serialport': '2.0.4' // 2.0.2 is last known publishable version
 });
 
 Package.onUse(function(api) {

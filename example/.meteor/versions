@@ -20,7 +20,7 @@ ecmascript@0.1.6
 ecmascript-runtime@0.2.6
 ejson@1.0.7
 fastclick@1.0.7
-fourquet:serialport@0.0.1
+fourquet:serialport@2.0.4_1
 geojson-utils@1.0.4
 html-tools@1.0.5
 htmljs@1.0.5
