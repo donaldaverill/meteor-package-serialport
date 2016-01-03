@@ -43,10 +43,8 @@ var serialPort = new SerialPort.SerialPort('/dev/tty.usbmodemfd121', {
     parser: SerialPort.parsers.readline('\r\n')
 });
 ```
-### Version
+#### Version
 2.0.2_1
 
-License
-----
-
+#### License
 MIT
