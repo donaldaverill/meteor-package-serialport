@@ -44,7 +44,7 @@ var serialPort = new SerialPort.SerialPort('/dev/tty.usbmodemfd121', {
 });
 ```
 #### Version
-2.0.2_1
+2.0.6_1
 
 #### License
 MIT
